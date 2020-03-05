@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	
+	
+}
+@font-face {
+    font-family: 'RobotoCondensed';
+	src: url('../fonts/Robotocondensed.eot');
+    src: url('../fonts/Robotocondensed.eot') format('embedded-opentype'),
+		 url('../fonts/Robotocondensed.woff') format('woff'),
+		 url('../fonts/Robotocondensed.woff2') format('woff2'),
+         url('../fonts/Robotocondensed.ttf') format('truetype');
+         font-style: normal;
+        font-weight: normal;
+}
+@font-face {
+    font-family: 'Robotocondensedbold';
+	src: url('../fonts/Robotocondensedbold.eot');
+    src: url('../fonts/Robotocondensedbold.eot') format('embedded-opentype'),
+		 url('../fonts/Robotocondensedbold.woff2') format('woff2'),
+         url('../fonts/Robotocondensedbold.woff') format('woff'),
+         url('../fonts/Robotocondensedbold.ttf') format('truetype');
+         font-style: normal;
+        font-weight: normal;
+}
+@font-face {
+    font-family: 'Fregat';
+    src: url('../fonts/fregat.eot');
+    src: url('../fonts/fregat.woff2') format('woff2'),
+         url('../fonts/fregat.woff') format('woff'),
+         url('../fonts/fregat.ttf') format('truetype');
+         font-style: normal;
+        font-weight: normal;
+}
+.header-cont{
+	min-height: 100vh;
+	display: flex;
+	padding: 40px 0;
+	box-sizing: border-box;
+}
+.header{
+	width: 900px;
+	box-sizing: border-box;
+	border: 10px solid #ffff00;
+	padding: 35px;
+	margin: auto;
+	position: relative;
+}
+.span-top{
+	text-align: center;
+	font-family: "RobotoCondensedBold";
+	font-size: 46px;
+	color: #fff;
+	display: block;
+	position: absolute;
+	text-align: center;
+	top: -33px;
+	left: calc(50% - 160px);
+	padding: 0 60px;
+	background-color: #666;
+}
+.h2-span{
+	display: block;
+}
+.header h2{
+	text-align: center;
+	font-family: 'RobotoCondensed';
+	font-size: 40px;
+	color: #13171c;
+	margin-bottom: 10px;
+}
